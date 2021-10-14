@@ -1,0 +1,19 @@
+{
+	"name": "@johncision/fluttershy",
+	"version": "1.0.0",
+	"description": "",
+	"files": [
+		"icons/**/*.svg"
+	],
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/johnCision/fluttershy.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/johnCision/fluttershy/issues"
+	},
+	"homepage": "https://github.com/johnCision/fluttershy#readme"
+}
