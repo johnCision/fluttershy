@@ -1,9 +1,10 @@
 {
 	"name": "@johncision/fluttershy",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "",
 	"files": [
-		"icons/**/*.svg"
+		"icons/**/*.svg",
+		"css/**/*.css"
 	],
 	"scripts": {},
 	"repository": {
