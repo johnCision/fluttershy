@@ -1,6 +1,6 @@
 {
 	"name": "@johncision/fluttershy",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "",
 	"files": [
 		"dist/icons/**/*.svg",
