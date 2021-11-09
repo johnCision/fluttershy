@@ -1,0 +1,30 @@
+:root {
+	--fluttershy-button-border-width: 1px;
+}
+
+
+c-button::part(button) {
+	background-color: var(--theme-button-background-color, red);
+	color: var(--theme-button-text-color, red);
+	border: var(--fluttershy-button-border-width) solid var(--theme-button-border-color, red);
+
+	border-radius: 99em;
+}
+
+c-button:hover::part(button) {
+	background-color: var(--theme-button-background-color-hover, red);
+	color: var(--theme-button-text-color-hover, red);
+	border-color:var(--theme-button-border-color-hover, red);
+}
+
+c-button[disabled]::part(button) {
+	background-color: var(--theme-button-background-color-disabled, red);
+	color:  var(--theme-button-text-color-disabled, red);
+	border-color:var(--theme-button-border-color-disabled, red);
+}
+
+c-button:not([disabled])::part(button):active {
+	background-color: var(--theme-button-background-color-active, red);
+	color:  var(--theme-button-text-color-active, red);
+	border-color:var(--theme-button-border-color-active, red);
+}

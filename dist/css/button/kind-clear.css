@@ -1,0 +1,12 @@
+
+
+c-button[kind="clear"]::part(button) {
+	padding: 0;
+	padding-block: 1em;
+	aspect-ratio: 1;
+
+	min-width: inherit;
+
+	background-color: transparent;
+	border-width: 0;
+}

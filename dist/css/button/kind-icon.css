@@ -1,0 +1,9 @@
+
+
+c-button[kind="icon"]::part(button) {
+	padding-block: 1em;
+	aspect-ratio: 1;
+
+	min-width: inherit;
+	padding: 0;
+}
