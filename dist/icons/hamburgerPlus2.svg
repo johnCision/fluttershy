@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="14">
+  <symbol
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 14"
+    id="hamburguerPlus">
+
+    <path fill="currentColor" fill-rule="nonzero" d="M12 4H0V6H12V4ZM12 0H0V2H12V0ZM16 8V4H14V8H10V10H14V14H16V10H20V8H16ZM0 10H8V8H0V10Z"/>
+
+  </symbol>
+
+  <use xlink:href="#hamburguerPlus"></use>
+</svg>
